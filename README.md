@@ -3,9 +3,6 @@
 ## Introduction
 The ch643-pico is a development board based on the WCH CH643Q 32-bit RISC-V MCU. It provides a compact and breadboard-friendly platform for USB Type-C and Power Delivery applications.
 
-## Design Concept
-The board follows the standard DIP-40 form factor. Its slim profile and 2.54mm pin pitch allow it to be plugged directly into a breadboard while maintaining access to surrounding tie-points.
-
 ## Hardware Resources
 *   **MCU**: WCH CH643Q featuring the QingKe-V4C RISC-V core.
 *   **Interface**: USB Type-C port for power delivery and data communication.
@@ -60,11 +57,9 @@ The board follows the standard DIP-40 form factor. Its slim profile and 2.54mm p
 ## Onboard Peripherals
 | Component   | Pin  | Logic       |
 | :---------- | :--- | :---------- |
-| User Key 1  | PA15 | Active Low  |
-| User Key 2  | PB12 | Active Low  |
-| Status LED  | PB18 | Active High |
-| UART TX LED | PB10 | Active High |
-| UART RX LED | PB11 | Active High |
+| KEY1 | PB12 | Active Low  |
+| KEY2 | PB16 | Active Low  |
+| LED | PB17 | Active Low |
 
 ## Functional Features
 *   **Power Path**: Integrated Schottky diodes protect the circuit when using both USB and external power sources.
