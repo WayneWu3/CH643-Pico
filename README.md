@@ -2,6 +2,7 @@
 
 ## Introduction
 The ch643-pico is a development board based on the WCH CH643Q 32-bit RISC-V MCU. It provides a compact and breadboard-friendly platform for USB Type-C and Power Delivery applications.
+
 ![CH643 Custom Board](figure/kicad_3D.jpg)
 
 ## Hardware Resources
